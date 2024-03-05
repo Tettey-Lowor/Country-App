@@ -1,0 +1,7 @@
+display5countries-Function declared
+go into the box- state the box-let countryBox
+*I want to pick 5 items
+pick 1 item first
+count whilst picking
+repeat the steps till you get 5 items
+store in a container
