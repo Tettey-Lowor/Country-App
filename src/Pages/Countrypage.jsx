@@ -47,9 +47,11 @@ export default function Countrypage() {
     <h2>{country.name.common}</h2>
     <img className='flag'src={country.flags.png} alt={country.flag.alt } />
     <h3>Continent: {country.continents}</h3>
+    <h3>Currency: {country.currencies.GHS.name} <span>{country.currencies.GHS.symbol}</span></h3>
+    <h3>Population:{country.population}</h3>
     {/* <h3>currency: {Country.currencies{...}}</h3> */}
     <h3>Coat of Arms</h3><img className='coatOfArms'src={country.coatOfArms.png} alt={country.coatOfArms.alt } />
-
+    
     </div>
     </>
     
