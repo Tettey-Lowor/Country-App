@@ -1,38 +1,48 @@
-.App {
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+.outer-div{
+display: grid;
+grid-template-columns: repeat(5, 1fr);
+grid-template-rows: 1fr;
+grid-column-gap: 12px;
+grid-row-gap: 0px;
+padding: 20px
+}
+.inner-div{
   text-align: center;
 }
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.flag{
+  width: 70%;
 }
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
+img{
+  width: 100%;
+}
+button{ 
+  background: #000000;
+  background-image: -webkit-linear-gradient(top, #000000, black);
+  background-image: -moz-linear-gradient(top, #000000, black);
+  background-image: -ms-linear-gradient(top, #000000, black);
+  background-image: -o-linear-gradient(top, #000000, black);
+  background-image: linear-gradient(to bottom, #000000, black);
+  -webkit-border-radius: 28;
+  -moz-border-radius: 28;
+  border-radius: 28px;
+  font-family: Arial;
+  color: #ffffff;
+  font-size: 17px;
+  padding: 2px 8px 3px 8px;
+  text-decoration: none;
   }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
-
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
+  
+  button:hover {
+    background: #000000;
+    background-image: -webkit-linear-gradient(top, #000000, #000000);
+    background-image: -moz-linear-gradient(top, #000000, #000000);
+    background-image: -ms-linear-gradient(top, #000000, #000000);
+    background-image: -o-linear-gradient(top, #000000, #000000);
+    background-image: linear-gradient(to bottom, #000000, #000000);
+    text-decoration: none;
   }
-  to {
-    transform: rotate(360deg);
-  }
-}
